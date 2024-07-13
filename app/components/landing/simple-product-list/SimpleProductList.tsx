@@ -25,7 +25,7 @@ const brands = [
     href: "#",
     price: "$89",
     imageSrc:
-      "https://cdn.sanity.io/images/kts928pd/production/ede876838fea33f3023070c103a055edf6ed65a0-1140x620.png",
+      "https://static.vecteezy.com/system/resources/previews/021/066/016/non_2x/versace-logo-popular-luxury-brand-free-vector.jpg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -45,7 +45,7 @@ const brands = [
     href: "#",
     price: "$35",
     imageSrc:
-      "https://logos-world.net/wp-content/uploads/2020/12/Jean-Paul-Gaultier-Logo.jpg",
+      "https://i.pinimg.com/564x/09/d7/d1/09d7d1f984bd56b375cfd21ca0cb0df6.jpg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
@@ -54,8 +54,7 @@ const brands = [
     name: "Machined Mechanical Pencil",
     href: "#",
     price: "$35",
-    imageSrc:
-      "https://i.pinimg.com/originals/68/d4/ff/68d4ffd201721eb96b54d3ba16726e88.jpg",
+    imageSrc: "https://logowik.com/content/uploads/images/529_ysl.jpg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
