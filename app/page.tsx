@@ -80,25 +80,34 @@ export default function Home() {
       >
         <Testimonials />
       </motion.div>
-
-      <video
-        autoPlay={true}
-        loop={true}
-        muted={true}
-        style={{
-          objectFit: "initial",
-          width: "100%",
-          height: "500px",
-          scale: "0.7",
-        }}
-      >
-        <source
-          src={
-            "https://videos.pexels.com/video-files/4154241/4154241-uhd_2732_1440_25fps.mp4"
-          }
-          type="video/mp4"
-        />
-      </video>
+      <div className="flex">
+        <video
+          autoPlay={true}
+          loop={true}
+          muted={true}
+          style={{ width: "100%", height: "500px", padding: "10px" }}
+        >
+          <source
+            src={
+              "https://videos.pexels.com/video-files/4154242/4154242-uhd_2732_1440_25fps.mp4"
+            }
+            type="video/mp4"
+          />
+        </video>
+        <video
+          autoPlay={true}
+          loop={true}
+          muted={true}
+          style={{ width: "100%", height: "500px", padding: "10px" }}
+        >
+          <source
+            src={
+              "https://videos.pexels.com/video-files/4154241/4154241-uhd_2732_1440_25fps.mp4"
+            }
+            type="video/mp4"
+          />
+        </video>
+      </div>
 
       <Collections />
       <motion.div
@@ -123,17 +132,7 @@ export default function Home() {
         className="box"
       >
         <MensPerfume />
-      </motion.div>
-      <motion.div
-        ref={womensPerfume}
-        variants={{
-          visible: { opacity: 1, scale: 1 },
-          hidden: { opacity: 0, scale: 0 },
-        }}
-        initial="hidden"
-        animate={womensPerfumeControl}
-        className="box"
-      >
+
         <WomensPerfume />
       </motion.div>
       <Footer />
