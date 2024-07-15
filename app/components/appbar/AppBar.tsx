@@ -61,13 +61,7 @@ export default function ButtonAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{ height: "65px", background: "#282828" }}>
         <Toolbar>
-          <Image
-            src="perfume.svg"
-            alt="My Happy SVG"
-            width={50}
-            height={50}
-            style={{}}
-          />
+          <Image src="perfume.svg" alt="My Happy SVG" width={50} height={50} />
           <Typography variant="h6" component="div">
             Golden Perfume
           </Typography>
